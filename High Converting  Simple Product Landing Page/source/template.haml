@@ -1,0 +1,120 @@
+/
+  Free SUI based Landing Page Template
+  Copyright (C) 2016 Neverexplored
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see http://www.gnu.org/licenses/.
+
+.ui.stackable.padded.page.grid
+  %header.row
+    .sixteen.wide.column
+      .ui.left.floated.buttons
+        %a.ui.basic.icon.huge.button{:href=>"/"}
+          %i.diamond.icon
+          Acme Inc.
+      .ui.right.floated.buttons
+        .ui.simple.basic.dropdown.button
+          %i.caret.down.icon
+          %i.america.flag
+          North America
+          .menu
+            .item
+              %i.india.flag
+              India
+            .item
+              %i.china.flag
+              China
+            .item
+              %i.singapore.flag
+              Singapore
+        %a.ui.basic.icon.button{:href=>"tel:+1 123 456 789"}
+          %i.phone.icon
+          +1 123 456 789
+
+
+  .row
+    .sixteen.wide.column
+      .ui.basic.segment
+        %h2.ui.center.aligned.title.header.huge
+          This is a sample heading for this page
+          .sub.header
+            This is a sample description for this heading above.
+
+  .row
+    .ten.wide.column
+      .ui.basic.segment.pitch
+        %img.ui.medium.left.floated.very.spaced.image{:src=>"images/book.jpg"}
+        %p.description
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis nisi eget diam pretium rhoncus. Integer at bibendum neque. Fusce id purus felis. Integer felis justo, convallis a molestie faucibus, finibus a ipsum. Aenean velit erat, faucibus ac lobortis sed, eleifend in ex. Etiam scelerisque sem lorem, et aliquet est sodales sit amet. Integer ultricies ut ex eu tincidunt. Suspendisse sit amet risus a mauris suscipit scelerisque. Nam posuere malesuada hendrerit. Proin laoreet, libero id elementum commodo, sem lacus bibendum risus, a cursus orci arcu et nisl. Fusce facilisis nisi eget diam pretium rhoncus. Integer at bibendum neque. Fusce id purus felis.
+        %div.ui.padded.segment
+          .ui.list
+            .item
+              %i.orange.large.check.icon
+              Learn to achieve X in 5 minutes
+            .item
+              %i.orange.large.check.icon
+              And how about also Y in 3 minutes
+            .item
+              %i.orange.large.check.icon
+              Well, in that case, also Z in 1 minute
+        %p
+          Suspendisse sit amet risus a mauris suscipit scelerisque.
+        .ui.padded.container
+          .ui.circular.facebook.icon.button
+            %i.facebook.icon
+          .ui.circular.twitter.icon.button
+            %i.twitter.icon
+          .ui.circular.linkedin.icon.button
+            %i.linkedin.icon
+          .ui.circular.google.plus.icon.button
+            %i.google.plus.icon
+
+    .six.wide.column
+      .ui.orange.lead.magnet.segment
+        .ui.medium.header
+          Get Your Free Introductory Guide
+        .ui.form
+          .field
+            %label Name
+            .two.fields
+              .field
+                %input{:name => "first-name", :placeholder => "First Name", :type => "text"}
+              .field
+                %input{:name => "last-name", :placeholder => "Last Name", :type => "text"}
+          .field
+            %label E-Mail
+            .field
+              %input{:name => "email", :placeholder => "E-Mail", :type => "text"}
+          .field
+            %label Website URL
+            .field
+              %input{:name => "website", :placeholder => "Website", :type => "text"}
+          .field
+            %label Your role
+            .field
+              %input{:name => "role", :placeholder => "Role", :type => "text"}
+          .field
+            .ui.large.orange.labeled.download.icon.fluid.button
+              %i.cloud.download.icon
+              Download Now
+
+  .row
+    .sixteen.wide.center.aligned.column
+      %footer.ui.text.menu
+        .header.item COPYRIGHT &copy; 2016 &nbsp; ACME Inc.
+        %a.item
+          Terms of Service
+        %a.item
+          Privacy policy
+        %a.item{:href=>"http://www.neverexplored.com"}
+          Design by Neverexplored.

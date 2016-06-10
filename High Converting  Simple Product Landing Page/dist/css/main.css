@@ -1,0 +1,12 @@
+.lead.magnet.segment {
+  background: #ffffe5;
+}
+
+.ui.basic.segment.pitch {
+  color: #616161;
+  padding-top: 0;
+}
+
+p.description {
+  line-height: 1.9rem;
+}
